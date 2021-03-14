@@ -2,9 +2,9 @@ package com.thorben.janssen.sample.model;
 
 public interface Car {
 
-    public String model();
+    public String getModel();
 
-    public String driverName();
+    public String getDriverName();
 
-    public int maxPassenger();
+    public int getMaxPassenger();
 }
