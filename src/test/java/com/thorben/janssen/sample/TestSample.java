@@ -4,15 +4,16 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import com.thorben.janssen.sample.model.BMW;
-import com.thorben.janssen.sample.model.Car;
-import com.thorben.janssen.sample.model.CarInfo;
-import com.thorben.janssen.sample.model.Honda;
+import com.sun.org.omg.CORBA.RepositoryIdSeqHelper;
+import com.thorben.janssen.sample.model.*;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -86,6 +87,56 @@ public class TestSample {
 
         assertThat(em.find(CarInfo.class, carInfo1.getId())).isNotNull();
         assertThat(em.find(CarInfo.class, carInfo2.getId())).isNotNull();
+
+        em.getTransaction().commit();
+        em.close();
+    }
+
+    @Test
+    public void testSample_ManyToAny() {
+        log.info("==== testSample-ManyToAny ====");
+
+        EntityManager em = emf.createEntityManager();
+        em.getTransaction().begin();
+
+        Honda honda = new Honda();
+        honda.setModel("h11");
+        honda.setMaxPassenger(4);
+        honda.setDriverName("Kaijo");
+        em.persist(honda);
+
+        BMW bmw = new BMW();
+        bmw.setModel("b11");
+        bmw.setMaxPassenger(3);
+        bmw.setDriverName("Thomas");
+        em.persist(bmw);
+
+        RideSharing rideSharing = new RideSharing();
+        rideSharing.setName("Shohoz");
+        List<Car> students = new ArrayList<>();
+        students.add(honda);
+        students.add(bmw);
+        rideSharing.setStudents(students);
+        em.persist(rideSharing);
+
+        em.getTransaction().commit();
+        em.close();
+
+
+        // validate that player got persisted
+        log.info("==== Test Assertions ====");
+        assertThat(honda.getId()).isNotNull();
+        assertThat(bmw.getId()).isNotNull();
+
+        assertThat(rideSharing.getId()).isNotNull();
+
+        em = emf.createEntityManager();
+        em.getTransaction().begin();
+
+        assertThat(em.find(Honda.class, honda.getId())).isNotNull();
+        assertThat(em.find(BMW.class, bmw.getId())).isNotNull();
+
+        assertThat(em.find(RideSharing.class, rideSharing.getId())).isNotNull();
 
         em.getTransaction().commit();
         em.close();

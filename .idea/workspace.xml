@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee147d97-97fb-41a7-97fe-25d3857db8a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/CarInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/Honda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/RideSharing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thorben/janssen/sample/TestSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thorben/janssen/sample/TestSample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,15 +19,6 @@
       <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/data.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="60" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="60" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
@@ -64,8 +50,8 @@
       <file leaf-file-name="TestSample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/thorben/janssen/sample/TestSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+            <state relative-caret-position="363">
+              <caret line="138" column="57" selection-start-line="138" selection-start-column="57" selection-end-line="138" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#546#547#0" expanded="true" />
@@ -74,6 +60,7 @@
                 <element signature="e#694#695#0" expanded="true" />
                 <element signature="e#889#890#0" expanded="true" />
                 <element signature="e#962#963#0" expanded="true" />
+                <element signature="method#testSample_ToAny#0;class#TestSample#0" />
               </folding>
             </state>
           </provider>
@@ -144,6 +131,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="RideSharing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/RideSharing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1232#1233#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+                <element signature="e#1352#1353#0" expanded="true" />
+                <element signature="e#1392#1393#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -162,8 +173,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -187,6 +198,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/DriverInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/CarInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/ShohozRide.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/RideSharing.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thorben/janssen/sample/TestSample.java" />
       </list>
     </option>
@@ -312,15 +325,6 @@
               <item name="@AnyExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="TestSample" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="SampleCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="@AnyExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -354,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSample">
+  <component name="RunManager" selected="JUnit.TestSample.testSample_ManyToAny">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -391,6 +395,29 @@
       <option name="MAIN_CLASS_NAME" value="com.thorben.janssen.sample.TestSample" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestSample.testSample_ManyToAny" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thorben.janssen.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thorben.janssen.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.thorben.janssen.sample.TestSample" />
+      <option name="METHOD_NAME" value="testSample_ManyToAny" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -615,9 +642,11 @@
     <list>
       <item itemvalue="JUnit.TestSample.testTheTest" />
       <item itemvalue="JUnit.TestSample" />
+      <item itemvalue="JUnit.TestSample.testSample_ManyToAny" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSample.testSample_ManyToAny" />
         <item itemvalue="JUnit.TestSample" />
         <item itemvalue="JUnit.TestSample.testTheTest" />
       </list>
@@ -635,14 +664,11 @@
       <updated>1615199457071</updated>
       <workItem from="1615199461152" duration="809000" />
       <workItem from="1615577211751" duration="1572000" />
-      <workItem from="1615621593099" duration="7753000" />
+      <workItem from="1615621593099" duration="8692000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSample - 2021.03.13 at 14h 44m 32s.xml">
-      <configuration name="TestSample" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSample_testTheTest - 2021.03.13 at 14h 46m 47s.xml">
       <configuration name="TestSample.testTheTest" configurationId="JUnit" />
     </history-entry>
@@ -670,9 +696,12 @@
     <history-entry file="TestSample - 2021.03.14 at 07h 08m 55s.xml">
       <configuration name="TestSample" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSample - 2021.03.14 at 07h 29m 25s.xml">
+      <configuration name="TestSample" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10134000" />
+    <option name="totallyTimeSpent" value="11073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -696,10 +725,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31920904" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20604026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20604026" />
       <window_info anchor="right" id="ReST Console" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -962,10 +991,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thorben/janssen/sample/model/RideSharing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thorben/janssen/sample/TestSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        <state relative-caret-position="363">
+          <caret line="138" column="57" selection-start-line="138" selection-start-column="57" selection-end-line="138" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#546#547#0" expanded="true" />
@@ -974,6 +1025,7 @@
             <element signature="e#694#695#0" expanded="true" />
             <element signature="e#889#890#0" expanded="true" />
             <element signature="e#962#963#0" expanded="true" />
+            <element signature="method#testSample_ToAny#0;class#TestSample#0" />
           </folding>
         </state>
       </provider>
