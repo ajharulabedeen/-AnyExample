@@ -4,7 +4,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import com.sun.org.omg.CORBA.RepositoryIdSeqHelper;
 import com.thorben.janssen.sample.model.*;
 import org.apache.log4j.Logger;
 import org.junit.After;
@@ -116,7 +115,7 @@ public class TestSample {
         List<Car> students = new ArrayList<>();
         students.add(honda);
         students.add(bmw);
-        rideSharing.setStudents(students);
+        rideSharing.setCars(students);
         em.persist(rideSharing);
 
         em.getTransaction().commit();

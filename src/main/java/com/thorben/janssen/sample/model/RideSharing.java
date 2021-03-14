@@ -24,7 +24,7 @@ public class RideSharing {
             joinColumns = @JoinColumn(name = "ride_sharing_id"),
             inverseJoinColumns = @JoinColumn(name = "car_id")
     )
-    private List<Car> students = new ArrayList<>();
+    private List<Car> cars = new ArrayList<>();
 
     public RideSharing() {
     }
@@ -32,7 +32,7 @@ public class RideSharing {
     public RideSharing(int id, String name, List<Car> students) {
         this.id = id;
         this.name = name;
-        this.students = students;
+        this.cars = students;
     }
 
     public int getId() {
@@ -51,11 +51,11 @@ public class RideSharing {
         this.name = name;
     }
 
-    public List<Car> getStudents() {
-        return students;
+    public List<Car> getCars() {
+        return cars;
     }
 
-    public void setStudents(List<Car> students) {
-        this.students = students;
+    public void setCars(List<Car> cars) {
+        this.cars = cars;
     }
 }
