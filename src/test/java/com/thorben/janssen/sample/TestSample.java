@@ -30,6 +30,7 @@ public class TestSample {
 
     @Test
     public void testTheTest(){
+        System.out.println(emf.toString());
         System.out.println("It is Working!");
     }
 
