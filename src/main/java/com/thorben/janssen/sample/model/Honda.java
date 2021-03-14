@@ -15,16 +15,6 @@ public class Honda implements Car {
     @Column(name = "max_passenger")
     private int maxPassenger;
 
-    public Honda() {
-    }
-
-    public Honda(int id, String model, String driverName, int maxPassenger) {
-        this.id = id;
-        this.model = model;
-        this.driverName = driverName;
-        this.maxPassenger = maxPassenger;
-    }
-
     public int getId() {
         return id;
     }

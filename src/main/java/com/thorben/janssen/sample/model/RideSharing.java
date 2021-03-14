@@ -26,15 +26,6 @@ public class RideSharing {
     )
     private List<Car> cars = new ArrayList<>();
 
-    public RideSharing() {
-    }
-
-    public RideSharing(int id, String name, List<Car> students) {
-        this.id = id;
-        this.name = name;
-        this.cars = students;
-    }
-
     public int getId() {
         return id;
     }
